@@ -4,7 +4,6 @@
 	"plugins": ["@typescript-eslint"],
 	"rules": {
 		"semi": "off",
-		"no-extra-semi": "off",
 		"@typescript-eslint/semi": ["warn"],
 		"@typescript-eslint/no-empty-interface": [
 			"error",
@@ -14,22 +13,10 @@
 		]
 	},
 	"extends": [
+		"next",
 		"eslint:recommended",
 		"plugin:@typescript-eslint/eslint-recommended",
 		"plugin:@typescript-eslint/recommended",
-		"plugin:react-hooks/recommended",
-		"plugin:prettier/recommended"
-	],
-	"prettier/prettier": [
-		"error",
-		{
-			"singleQuote": true,
-			"useTabs": true,
-			"semi": true,
-			"trailingComma": "all",
-			"bracketSpacing": true,
-			"printWidth": 100,
-			"endOfLine": "auto"
-		}
+		"plugin:react-hooks/recommended"
 	]
 }
