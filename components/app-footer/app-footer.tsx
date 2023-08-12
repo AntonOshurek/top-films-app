@@ -1,5 +1,5 @@
 /* components */
-import { FooterNav } from '../';
+import FooterNav from './footer-nav/footer-nav';
 import FooterContact from './footer-contact/footer-contact';
 /* styles */
 import style from './app-footer.module.css';

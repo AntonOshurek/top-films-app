@@ -1,9 +1,9 @@
-.app-nav {
+.header-nav {
 	width: 100%;
 	height: 100%;
 }
 
-.app-nav__list {
+.header-nav__list {
 	width: 100%;
 	height: 100%;
 	list-style: none;
@@ -13,7 +13,7 @@
 	align-items: center;
 }
 
-.app-nav__item {
+.header-nav__item {
 	height: 100%;
 
 	display: flex;
@@ -21,7 +21,7 @@
 	align-items: center;
 }
 
-.app-nav__link {
+.header-nav__link {
 	height: 100%;
 	display: flex;
 	justify-content: center;
@@ -40,13 +40,13 @@
 	border-bottom: 1px solid transparent;
 }
 
-.app-nav__link--active {
+.header-nav__link--active {
 	color: var(--primary);
 	border-bottom-color: var(--primary);
 	pointer-events: none;
 }
 
-.app-nav__link:hover {
+.header-nav__link:hover {
 	color: var(--primary);
 	border-bottom-color: var(--primary);
 }
