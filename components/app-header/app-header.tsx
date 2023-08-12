@@ -1,5 +1,5 @@
 /* components */
-import { LoginBtn, AppNav } from '../';
+import { LoginBtn, AppNav, HeaderSearchBar } from '../';
 /* styles */
 import style from './app-header.module.css';
 
@@ -9,6 +9,8 @@ const AppHeader = () => {
 			<h1 className={`${style['app-header__title']}`}>Top Films App</h1>
 
 			<AppNav />
+
+			<HeaderSearchBar />
 
 			<LoginBtn />
 		</header>
