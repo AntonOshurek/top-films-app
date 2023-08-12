@@ -1,10 +1,18 @@
+/* components */
+import { LoginBtn, AppNav, HeaderSearchBar } from '../';
 /* styles */
-import './app-header.css';
+import style from './app-header.module.css';
 
 const AppHeader = () => {
 	return (
-		<header className="app-header container">
-			<h1>Top Films App</h1>
+		<header className={`${style['app-header']} container`}>
+			<h1 className={`${style['app-header__title']}`}>Top Films App</h1>
+
+			<AppNav />
+
+			<HeaderSearchBar />
+
+			<LoginBtn />
 		</header>
 	);
 };
