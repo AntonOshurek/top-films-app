@@ -13,9 +13,9 @@
 	padding: 2px 5px;
 
 	font-family: var(--basic-font);
-	font-size: var(--heading-xsmall-size);
-	font-weight: var(--heading-xsmall-weight);
-	line-height: var(--heading-xsmall-line-height);
+	font-size: var(--heading-small-size);
+	font-weight: var(--heading-small-weight);
+	line-height: var(--heading-small-line-height);
 	color: var(--main-text-color);
 	text-decoration: none;
 	text-transform: capitalize;
@@ -47,9 +47,9 @@
 	padding: 2px 5px;
 
 	font-family: var(--basic-font);
-	font-size: var(--label-small-size);
-	font-weight: var(--label-small-weight);
-	line-height: var(--label-small-line-height);
+	font-size: var(--label-medium-size);
+	font-weight: var(--label-medium-weight);
+	line-height: var(--label-medium-line-height);
 	color: var(--sub-text-color);
 	text-decoration: none;
 	text-transform: capitalize;

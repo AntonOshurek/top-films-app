@@ -5,12 +5,16 @@ import Link from 'next/link';
 /* styles */
 import style from './footer-nav.module.css';
 
-const FooterNav = () => {
+interface IFooterNavProps {
+	additionalStyleClass?: string;
+}
+
+const FooterNav = ({ additionalStyleClass }: IFooterNavProps) => {
 	const pathName = usePathname();
 
 	return (
-		<section className={`${style['footer-nav']}`}>
-			<h2 className={`${style['footer-nav__title']}`}>Page navigation</h2>
+		<section className={`${style['footer-nav']} ${additionalStyleClass && additionalStyleClass}`}>
+			<h5 className={`${style['footer-nav__title']}`}>Sections</h5>
 
 			<ul className={`${style['footer-nav__list']}`}>
 				<li className={`${style['footer-nav__item']}`}>

@@ -1,14 +1,19 @@
 /* components */
 import { FooterNav } from '../';
+import FooterContact from './footer-contact/footer-contact';
 /* styles */
 import style from './app-footer.module.css';
 
 const AppFooter = () => {
 	return (
-		<footer className={`${style['app-footer']} container`}>
-			<FooterNav />
+		<footer className={`${style['app-footer']}`}>
+			<div className={`${style['app-footer__wrap']} container`}>
+				<FooterNav additionalStyleClass={`${style['app-footer__navigation']}`} />
 
-			<p>© copyright 1998 Exampland Emperor</p>
+				<FooterContact additionalStyleClass={`${style['app-footer__contact']}`} />
+
+				<p className={`${style['app-footer__copyright']}`}>© copyright 2023 Exampland Emperor</p>
+			</div>
 		</footer>
 	);
 };
