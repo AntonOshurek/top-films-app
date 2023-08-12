@@ -16,7 +16,7 @@
 	color: var(--main-text-color);
 }
 
-.app-header__login-btn {
+/* .app-header__login-btn {
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: space-between;
@@ -42,4 +42,4 @@
 
 .app-header__login-btn:hover > svg {
 	fill: var(--primary);
-}
+} */
