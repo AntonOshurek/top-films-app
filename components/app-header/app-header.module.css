@@ -15,31 +15,3 @@
 	line-height: var(--heading-xxlarge-line-height);
 	color: var(--main-text-color);
 }
-
-/* .app-header__login-btn {
-	display: flex;
-	flex-direction: row-reverse;
-	justify-content: space-between;
-	align-items: center;
-	gap: 2px;
-
-	padding: 4px 8px;
-	background-color: transparent;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-
-	font-family: var(--basic-font);
-	font-size: 24px;
-	font-weight: var(--label-large-weight);
-	line-height: var(--label-large-line-height);
-	color: var(--main-text-color);
-}
-
-.app-header__login-btn > svg {
-	fill: var(--main-text-color);
-}
-
-.app-header__login-btn:hover > svg {
-	fill: var(--primary);
-} */
