@@ -22,6 +22,10 @@
 	fill: var(--main-text-color);
 }
 
+.login-btn:hover {
+	color: var(--primary);
+}
+
 .login-btn:hover > svg {
-	fill: var(--primary);
+	fill: var(--secondary);
 }
