@@ -1,0 +1,5 @@
+.app-footer {
+	width: 100%;
+
+	padding: 10px var(--standard-side-padding);
+}

@@ -9,6 +9,7 @@ const AppNav = () => {
 	const pathName = usePathname();
 	return (
 		<nav className={`${style['app-nav']}`}>
+			<h2 className="visually-hidden">Page navigation</h2>
 			<ul className={`${style['app-nav__list']}`}>
 				<li className={`${style['app-nav__item']}`}>
 					<Link
