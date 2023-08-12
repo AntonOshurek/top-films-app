@@ -41,12 +41,12 @@
 }
 
 .app-nav__link--active {
-	color: var(--secondary);
-	border-bottom-color: var(--secondary);
+	color: var(--primary);
+	border-bottom-color: var(--primary);
 	pointer-events: none;
 }
 
 .app-nav__link:hover {
-	color: var(--secondary);
-	border-bottom-color: var(--secondary);
+	color: var(--primary);
+	border-bottom-color: var(--primary);
 }
