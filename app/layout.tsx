@@ -5,10 +5,10 @@ import { AppHeader, AppFooter } from '@/components';
 /* store */
 import { Providers } from '@/lib/providers';
 /* styles */
-import './global-styles/globals.css';
-import './style-variables/color-variables.css';
-import './style-variables/width-variables.css';
-import './style-variables/font-variables.css';
+import '@/styles/global-styles/globals.css';
+import '@/styles/style-variables/color-variables.css';
+import '@/styles/style-variables/width-variables.css';
+import '@/styles/style-variables/font-variables.css';
 
 const ptSans = PT_Sans({
 	subsets: ['latin'],
