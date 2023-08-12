@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { PT_Sans } from 'next/font/google';
 /* Components */
 import { AppHeader, AppFooter } from '@/components';
 /* store */
@@ -9,6 +10,14 @@ import './style-variables/color-variables.css';
 import './style-variables/width-variables.css';
 import './style-variables/font-variables.css';
 
+const ptSans = PT_Sans({
+	subsets: ['latin'],
+	display: 'swap',
+	weight: ['400', '700'],
+	fallback: ['Arial'],
+	style: 'normal',
+});
+
 export const metadata: Metadata = {
 	title: 'TopFilms',
 	description: 'App for showing for you top fils from all of the world!',
@@ -17,7 +26,7 @@ export const metadata: Metadata = {
 export default function RootLayout(props: React.PropsWithChildren) {
 	return (
 		<Providers>
-			<html lang="en">
+			<html lang="en" className={ptSans.className}>
 				<body className="body">
 					<AppHeader />
 					<main className="main container">{props.children}</main>

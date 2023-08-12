@@ -1,3 +1,11 @@
 :root {
 	--bg: #001424;
+	--second-bg: #001424;
+	--surface: #122840;
+	--surface-overlay: #284059;
+	--main-text-color: #ffffff;
+	--second-text-color: #eeeeee;
+	--sub-text-color: #677f99;
+
+	--link-hover-color: #0d6efd;
 }
