@@ -16,6 +16,7 @@ const ptSans = PT_Sans({
 	weight: ['400', '700'],
 	fallback: ['Arial'],
 	style: 'normal',
+	variable: '--basic-font',
 });
 
 export const metadata: Metadata = {
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
 export default function RootLayout(props: React.PropsWithChildren) {
 	return (
 		<Providers>
-			<html lang="en" className={ptSans.className}>
+			<html lang="en" className={`${ptSans.className} ${ptSans.variable}`}>
 				<body className="body">
 					<AppHeader />
 					<main className="main container">{props.children}</main>
