@@ -1,4 +1,8 @@
 /* types */
 import type { ReduxState } from '@/types/store-types';
 
-export const selectorFilmsListIsLoading = (state: ReduxState) => state.movieList.isLoading;
+const selectorFilmsListIsLoading = (state: ReduxState) => state.movieList.isLoading;
+const selectorFilmsListError = (state: ReduxState) => state.movieList.error;
+const selectorFilmsListData = (state: ReduxState) => state.movieList.moviesData;
+
+export { selectorFilmsListIsLoading, selectorFilmsListError, selectorFilmsListData };

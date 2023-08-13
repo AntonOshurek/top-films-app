@@ -10,5 +10,11 @@ export const movieList = createSlice({
 		setLoading: (state, action: PayloadAction<boolean>) => {
 			state.isLoading = action.payload;
 		},
+		setError: (state, action: PayloadAction<string[]>) => {
+			state.error = action.payload;
+		},
+		setFilmsList: (state, action: PayloadAction<{ [name: string]: string | number }[]>) => {
+			state.moviesData = action.payload;
+		},
 	},
 });
