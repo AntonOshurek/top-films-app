@@ -3,7 +3,7 @@ import { PT_Sans } from 'next/font/google';
 /* Components */
 import { AppHeader, AppFooter } from '@/components';
 /* store */
-import { Providers } from '@/lib/providers';
+import { Providers } from '@/store/providers';
 /* styles */
 import '@/styles/global-styles/globals.css';
 import '@/styles/style-variables/color-variables.css';
